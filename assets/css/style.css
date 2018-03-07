@@ -1,0 +1,131 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+
+html, body, .full-height {
+  height: 100%;
+}
+.section-bg-1{
+    background-image: url(../img/bg-1..jpg)
+}
+.section-bg-2{
+    background-image: url(../img/bg-2.jpg)
+}
+
+.section-padding.full-height.overly{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-padding {
+  padding-top: 80px;
+}
+
+.full-height {
+    padding: 0;
+}
+
+.overly {
+  position: relative;
+}
+
+.overly:after, .singel-item:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #000;
+  z-index: 1;
+  opacity: .4;
+}
+
+.section-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.section-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.singel-item {
+  text-align: center;
+  position: relative;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.singel-icon {
+  font-size: 120px;
+  line-height: 120px;
+  padding-top: 20px;
+}
+
+.singel-item h2 {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.singel-item p {
+  font-size: 16px;
+}
+
+.singel-bt {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.video-play-box h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.video-play-box {
+    text-align: center;
+}
+
+.video-btn {
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 30px;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    line-height: 0px;
+    padding: 40px;
+    color: #000;
+}
